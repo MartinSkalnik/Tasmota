@@ -87,8 +87,9 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!!
 */
 
-
-
+#ifndef USE_OPENTHERM
+#define USE_OPENTHERM
+#endif
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
